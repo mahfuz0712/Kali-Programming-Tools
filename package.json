@@ -1,0 +1,19 @@
+{
+  "name": "kali-programming-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-linux": "pkg src/index.js --targets node16-linux-x64 --output executables/kpt"
+  },
+  "keywords": ["Kali Programming Tools, CyberSecurity", "Linux", "JavaScript", "Node JS"],
+  "author": "Mohammad Mahfuz Rahman",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^13.0.0",
+    "table": "^6.9.0"
+  },
+  "devDependencies": {
+    
+  }
+}
